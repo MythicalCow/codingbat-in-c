@@ -17,6 +17,7 @@ int main() {
         strcpy(sleepIn, "TRUE");
     }
     printf("sleep in: %s\n", sleepIn);
+    free(sleepIn);
     return 0;
 }
 
